@@ -5,7 +5,6 @@
     */
     (function($) {
     "use strict"; // Start of use strict
-
     // CUSTOM FUNCTIONS
     function copyToClipboard() {
       /* Get the text field */
@@ -14,7 +13,14 @@
       /* Select the text field */
       copyText.select();
       copyText.setSelectionRange(0, 99999); /* For mobile devices */
-    
+      // $.post("/play/jqueryajaxform/sendEmail.php",
+      //   { emailTo: emailToVal, emailFrom: emailFromVal, subject: subjectVal, message: messageVal },
+      //   function(data){
+      //     $("#sendEmail").slideUp("normal", function() {
+      //       $("#sendEmail").before('<h1>Success</h1><p>Your email was sent.</p>');
+      //     });
+      //   }
+      // ); 
       /* Copy the text inside the text field */
       navigator.clipboard.writeText(copyText.value);
       
