@@ -10269,6 +10269,10 @@ form .row:first-child .floating-label-form-group {
   padding-top: 5%;
 }
 
+.price{
+  color: var(--green);
+}
+
 @media screen and (min-width: 480px) {
   .block {width: 100%}
 }
