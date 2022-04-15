@@ -9,7 +9,7 @@
     // CUSTOM FUNCTIONS
     function copyToClipboard() {
       /* Get the text field */
-      var copyText = document.getElementById("myInput");
+      var copyText = docum-ent.getElementById("myInput");
     
       /* Select the text field */
       copyText.select();
