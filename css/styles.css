@@ -10327,6 +10327,9 @@ form .row:first-child .floating-label-form-group {
 }
 
 .client-card-header .client-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
   bottom: 0;
   background: rgb(0, 0, 0); /* Fallback color */
@@ -10335,4 +10338,6 @@ form .row:first-child .floating-label-form-group {
   width: 100%;
   padding: 20px;
   border-radius: 0px 0px 50px 50px;
+  font-weight: bolder;
+  font-size: x-large;
 }
