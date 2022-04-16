@@ -10278,6 +10278,10 @@ form .row:first-child .floating-label-form-group {
   margin-right: auto;
 }
 
+.client-card-header img{
+  width: 100%;
+}
+
 .client-description {
   color: ghostwhite;
   font-size:  x-large;
