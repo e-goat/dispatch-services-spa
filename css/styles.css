@@ -10278,10 +10278,6 @@ form .row:first-child .floating-label-form-group {
   margin-right: auto;
 }
 
-.client-card-header img{
-  width: 100%;
-}
-
 .client-description {
   color: ghostwhite;
   font-size:  x-large;
@@ -10291,7 +10287,9 @@ form .row:first-child .floating-label-form-group {
 }
 
 .price{
-  color: var(--green);
+  color: var(--gray-dark);
+  font-size:medium;
+  font-weight: bold;
 }
 
 @media screen and (min-width: 480px) {
@@ -10314,4 +10312,27 @@ form .row:first-child .floating-label-form-group {
   html {
     font-size: 1.6rem;
   }
+}
+.client-card-header{
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.client-card-header img{
+  vertical-align: middle;
+  width: 100%;
+  border-radius: 50px;
+  image-resolution: 1000dpi;
+}
+
+.client-card-header .client-title {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+  border-radius: 0px 0px 50px 50px;
 }
